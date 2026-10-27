@@ -45,7 +45,7 @@ Then in Chrome:
 ## Usage
 
 1. Open any article page
-2. Click the Phonon Reader toolbar icon → **Read page**, or select text first → **Read selection** (or right-click the selection → *Read selection aloud*)
+2. Click the Phonon Reader toolbar icon → **Read page**, or select text first → **Read selection** (or right-click the selection → _Read selection aloud_)
 3. Use the widget in the page's top-right corner (or the popup) to pause/resume/stop
 
 ## How it works
