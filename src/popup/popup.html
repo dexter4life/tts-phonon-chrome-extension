@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Phonon Reader</title>
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <span class="brand">Phonon Reader</span>
+        <span class="status-dot" data-testid="status-dot"></span>
+      </header>
+
+      <p class="status" data-testid="status">Idle</p>
+
+      <div class="actions">
+        <button id="read-page" class="primary" data-testid="read-page">▶ Read page</button>
+        <button id="read-selection" data-testid="read-selection">Read selection</button>
+        <button id="pause" disabled data-testid="pause">⏸ Pause</button>
+        <button id="resume" disabled hidden data-testid="resume">▶ Resume</button>
+        <button id="stop" data-testid="stop">■ Stop</button>
+      </div>
+
+      <p class="progress" data-testid="progress"></p>
+      <p class="error" id="error" data-testid="error"></p>
+    </main>
+  </body>
+  <script type="module" src="popup.js"></script>
+</html>

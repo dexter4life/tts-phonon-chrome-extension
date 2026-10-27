@@ -1,0 +1,18 @@
+{
+    "name": "tts-phonon-chrome-extension",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "Chrome MV3 extension that reads web pages aloud with the local Ollama phonon text-to-speech model.",
+    "scripts": {
+        "icons": "node scripts/make-icons.mjs",
+        "build": "node scripts/build.mjs",
+        "build:watch": "node scripts/build.mjs --watch",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.1.27",
+        "esbuild": "^0.25.10",
+        "typescript": "^5.9.3"
+    }
+}
